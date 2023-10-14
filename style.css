@@ -1,0 +1,36 @@
+.hero-image {
+    background-image: url("assets/cinnamoroll--14494.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-item{
+    text-decoration: none;
+}
+.nav-item:hover{
+    text-decoration:underline;
+}
+
+#sobre-mi button{
+    appearance: none;
+	border: 0;
+	padding: 25px 45px;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 500px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial;
+	background: linear-gradient(270deg, #5f2c82, #ee38bf, #ff5858, #49a09d, #1b5ece, #5f2c82, #ee38bf, #ff5858);
+	background-size: 400% 400%;
+	animation: AnimationName 5s ease infinite;
+}
+@keyframes AnimationName {
+	0%   { background-position: 0% center; }
+	100% { background-position: 100% center; }
+}
+
+#sobre-mi img{
+    border-radius: 50%;
+}
